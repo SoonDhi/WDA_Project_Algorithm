@@ -15,7 +15,9 @@ public class The_Number_Of_Numbers {
 	1,000보다 작은 자연수이다.
 
 	출력
-	첫째 줄에는 A × B × C의 결과에 0 이 몇 번 쓰였는지 출력한다. 마찬가지로 둘째 줄부터 열 번째 줄까지 A × B × C의 결과에 1부터 9까지의 숫자가 각각 몇 번 쓰였는지 차례로 한 줄에 하나씩 출력한다.
+	첫째 줄에는 A × B × C의 결과에 0 이 몇 번 쓰였는지 출력한다.
+	마찬가지로 둘째 줄부터 열 번째 줄까지 A × B × C의 결과에 1부터 9까지의 숫자가 
+	각각 몇 번 쓰였는지 차례로 한 줄에 하나씩 출력한다.
 	
 	*/
 	public static void main(String[] args) {
@@ -35,7 +37,7 @@ public class The_Number_Of_Numbers {
 			for(int j = 0; j < mulStr.length(); j++) {
 				// 비교할 숫자: 0~9
 				compare = (i+"").charAt(0);
-				// 비교되는 mul 숫자: mul을 한 자리씩 검
+				// 비교되는 mul 숫자: mul을 한 자리씩 검사
 				target = mulStr.charAt(j);
 				if(target == compare) 
 					cnt++;
